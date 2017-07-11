@@ -9,8 +9,8 @@ IF "%2"=="" (
     SET "ip=127.0.0.1"
 )
 
-echo %url% %ip%
-echo.%url%      %ip% >> %WINDIR%\System32\drivers\etc\hosts
+echo %ip% %url%
+echo.%ip%      %url% >> %WINDIR%\System32\drivers\etc\hosts
 goto commonexit
 
 :empty
